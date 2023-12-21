@@ -1,0 +1,118 @@
+body {
+  background: #23252c;
+}
+
+.wrap {
+  width: 317px;
+  background: #1a1b21;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.name {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 21px;
+}
+
+.job {
+  color: #f3bf99;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 6.19px 0 8.81px;
+}
+
+.website {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  text-decoration: none;
+  display: block;
+}
+
+.website:hover {
+  text-decoration: underline;
+}
+
+.mail-button {
+  display: flex;
+  width: 247px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--white, #fff);
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  margin: 14px auto 0;
+}
+
+.mail-button a {
+  text-decoration: none;
+  color: var(--gray-700, #374151);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
+
+.mail-button:hover {
+  background: #5093e2;
+  cursor: pointer;
+}
+
+.description {
+  margin: 34px 35px 24px;
+}
+
+.description h2 {
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+
+.description p {
+  color: #dcdcdc;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  margin: 5px 0 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  background: #161619;
+}
+
+.footer a {
+  display: block;
+  margin: 0 12px;
+}
+
+.footer a:hover {
+  transform: translateY(-3px);
+}
