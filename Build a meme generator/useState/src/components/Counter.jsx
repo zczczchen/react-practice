@@ -1,4 +1,6 @@
 import React from "react";
+import Count from "./Count";
+import "../css/Counter.css";
 
 function Counter() {
   const [count, setCount] = React.useState(0);
@@ -18,19 +20,16 @@ function Counter() {
     setCount((prevCount) => prevCount + 1);
   }
 
-  // Challenge: update `substract` to use a callback function
-
   function subtract() {
     setCount((prevCount) => prevCount - 1);
   }
+
   return (
     <div className='counter'>
       <button className='counter--minus' onClick={subtract}>
         –
       </button>
-      <div className='counter--count'>
-        <h1>{count}</h1>
-      </div>
+      <Count number={count} />
       <button className='counter--plus' onClick={add}>
         +
       </button>
