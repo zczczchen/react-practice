@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/Important.css";
 
 function Important() {
   const [isImportant, setIsImportant] = React.useState("Yes");
